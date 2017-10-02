@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Logs all SQL queries in debug
-LOGGING = {
+"""LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'handlers': {
@@ -137,4 +137,4 @@ LOGGING = {
             'level': 'DEBUG',
         },
     }
-}
+}"""
